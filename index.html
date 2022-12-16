@@ -103,7 +103,7 @@
 
             <li class="list-group-item d-flex justify-content-between lh-condensed">
               <div>
-                <h5 class="my-0" id="totalProductos">Total</h5>
+                <h5 class="my-0" id="totalPrecio">Total</h5>
                 
               </div>
               <span class="text-muted" id="precioTotal">$0</span>
@@ -123,20 +123,21 @@
             <div class="row">
               <div class="col-md-6 mb-3">
                 <label for="Name">Nombre</label>
-                <input type="text" class="form-control" id="nombre" placeholder="" value="name" required>
+                <input type="text" class="form-control" id="Name" placeholder="" value="" required>
                 <div class="invalid-feedback">
                   Nombre inválido
                 </div>
               </div>
               <div class="col-md-6 mb-3">
                 <label for="Number">Cantidad</label>
-                <input type="text" class="form-control" id="number" placeholder="" value="cantidad" required>
+                <input type="text" class="form-control" id="number" placeholder="" value="" required>
                 <div class="invalid-feedback">
                  Cantidad inválida
                 </div>
               </div>
             </div>
-            <button class="btn btn-primary btn-lg btn-block" type="button" id="btnAgregar">Agregar</button>
+            <button id="btnAgregar" class="btn btn-primary btn-lg btn-block" type="button">Agregar</button>
+            <button id="btnClear" class="btn btn-primary btn-lg btn-block" type="button">Limpiar todo</button>
             <hr class="mb-4">
             
             <!-- Insertar tabla aquí -->
